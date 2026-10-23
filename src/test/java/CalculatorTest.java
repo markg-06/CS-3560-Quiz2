@@ -1,8 +1,8 @@
 //Calculator tests here
 
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertFalse;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 public class CalculatorTest {
 
@@ -49,5 +49,10 @@ public class CalculatorTest {
 
         assertFalse(actual);
     }
+    @Test
+    public void testDivideByZero(){
+        Exception exception = assertThrows(IllegalAccessException.class, () -> calculator.divide(1,0) );
 
+
+    }
 }

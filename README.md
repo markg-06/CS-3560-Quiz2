@@ -14,5 +14,6 @@ First write a test to fail it, then implement the minimum code needed
 to pass the test. After passing the tests, I either added more tests or refactored.
 
 ## Test Suite Results
-![Test results 1](/images/test-results-1.png)
+![Test results 1](images/test-results-1.png)
 ![Test results 2](images/test-results-2.png)
+![Test results 3](images/test-results-3.png)

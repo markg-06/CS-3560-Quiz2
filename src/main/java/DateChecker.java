@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class DateChecker {
-    enum Month{
+    public enum Month{
         JANUARY,
         FEBRUARY,
         MARCH,

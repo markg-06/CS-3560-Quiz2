@@ -23,6 +23,13 @@ public class CalculatorTest {
         assertEquals(expected, actual);
     }
     @Test
+    public void testSubtractionWithNegatives(){
+
+        int expected = 1;
+        int actual = calculator.subtraction(-1,-2);
+        assertEquals(expected, actual);
+    }
+    @Test
     public void testMultiply(){
 
         int expected = 2;
